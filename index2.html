@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+        <link rel="stylesheet" href="./stylos.css">
+    </head>
+    <body>
+        <header class="row">
+            <!--Encabezado-->
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                <div class="container">
+                  <a class="navbar-brand" href="./Imagenes/codoacodo.png">
+                      <img src="./Imagenes/codoacodo.png" alt="Bootstrap"  height="70em">
+                  </a>
+                  <a class="navbar-brand"  href=""> <span>Conf Bs As </span> </a>
+                  <div class="container navbar-collapse justify-content-end">
+                    <ul class="navbar-nav text-start text-sm-center">
+                      <li class="nav-item">                         <a class="nav-link active" href="#La conferencia">La conferencia</a></li>
+                      <li class="nav-item">
+                        <a class="nav-link " href="#oradores">Los oradores</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link " href="#">El lugar y la fecha</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link " href="#">Conviertete en orador</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link link-success" href="#">Comprar tickets</a>
+                      </li>
+                      <a class="nav-link" href="https://github.com/">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16">
+                            <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"></path>
+                        </svg>
+                    </a>
+                    </ul>
+                                       
+                  </div>
+                </div>
+
+              </nav>
+        </header>
+
+        <main>
+             <!--Principal-->
+            <div class="container">
+                <div class="container p-4">
+                        <!--Descuentos-->
+                        <div class="row mx-5">
+                            <div class="row mx-4 justify-content-center">
+                                <div class="col ms-0">
+                                    <div class="border border-primary">
+                                        <div class="card-body">
+                                            <h4 class="card-title text-center my-2">Estudiante</h4>
+                                            <p class="card-text text-center">Tiene un descuento</p>
+                                            <h3 class="text-center">80%</h3>
+                                            <p class="text-center">*Presentar documentación</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col me-0 ">
+                                    <div class="border border-primary">
+                                        
+                                        <div class="card-body">
+                                            
+                                            <h4 class="card-title text-center my-2">Trainee</h4>
+                                            <p class="card-text text-center">Tiene un descuento</p>
+                                            <h3 class="text-center">50%</h3>
+                                            <p class="text-center">*Presentar documentación</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col me-5">
+                                    <div class="border border-warning" >
+                                        
+                                        <div class="card-body">
+                                            
+                                            <h4 class="card-title text-center my-2">Junior</h4>
+                                            <p class="card-text text-center">Tiene un descuento</p>
+                                            <h3 class="text-center">15%</h3>
+                                            <p class="text-center">*Presentar documentación</p></div>
+                                    </div>
+                                </div>
+                            </div>
+                        
+                    </div>
+                </div> 
+                
+            
+                <div class="container">
+                    <div class="w-75 m-md-auto">
+                        <div class="text-center">
+                            <p class="text-center">
+                                Venta
+                            </p>
+                            <h2 class="text-center">
+                                VALOR TICKET $200
+                            </h2>
+                            
+                        </div>
+                        <!--Formulario-->
+                        <form action="" method="get" class="formulario" id="formulario" >
+                            <div class="row my-2">
+                                <div class="col" id="usuario">
+                                    <input class="form-control" type="text" name="nombre"  id="nombre" required placeholder="Nombre">
+                                </div>
+                                <div class="col" id="apellid">
+                                    <input class="form-control" type="text" name="apellido"  id="apellido" required placeholder="Apellido">
+                                </div>
+            
+                            </div>
+                            <div class="row my-2">
+                                <div class="col" id="correo">
+                                    <input class="form-control" type="email" name="email" id="email" cols="20" required
+                                        placeholder="Correo"></input>
+                                    
+                                </div>
+            
+                            </div>
+                            <div class="row my-2">
+                                <div class="col">
+                                    <label class="px-2" for="Cantidad"> Cantidad</label>
+                                    <input class="form-control my-2" type="text" name="cantidad"  id="cantidad" required placeholder="Cantidad">
+                                </div>
+                                <div class="col">
+                                    <label for="" class="form-label">Categoria</label>
+                                    <select class="form-select " name="Categoria" id="categoria">
+                                        <option value="Estudiante">Estudiante</option>
+                                        <option value="Trainee">Trainee</option>
+                                        <option value="Junior">Junior</option>
+                                    </select>
+                                    
+
+                                    
+                                </div>
+            
+                            </div>
+                            <br>
+                            <div class="d-grid">
+                                <label class="text py-2 px-3" for="" id="pagar"> Total a pagar:$</label>
+                                
+                            </div>
+
+                            <div class="row my-4">
+                                <div class="col d-grid" >
+                                    <button type="button" class="btn" id="enviar" onclick="reset()">Borrar</button>
+                                    
+                                </div>
+                                <div class="col d-grid">
+                                    <button type="submit" class="btn " id="enviar" onclick="resumen()" >Resumen</button>
+                                </div>
+
+                            </div>
+            
+            
+            
+                        </form>
+
+                    </div>        
+                </div>
+            </div>
+        </section>
+        
+        
+
+  
+    
+   
+
+
+        </main>
+
+        <footer class="container-fluid text-center py-3" id="footer">
+            <div class="container">
+                <div class="row container text-center align-items-center">
+                    
+                    <div class="col-lg">
+                        <a class="text-decoration-none link-light" href="">Preguntas frecuentes</a>
+
+                    </div>
+                    
+                    <div class="col-lg">
+                        <a class="text-decoration-none link-light"  href="">Contáctanos</a>
+
+                    </div>
+                    <div class="col-lg">
+                        <a class="text-decoration-none link-light"  href="">Prensa</a>
+
+                    </div>
+                    <div class="col-lg">
+                        <a class="text-decoration-none link-light"  href="">Conferencias</a>
+
+                    </div>
+                    <div class="col-lg">
+                        <a class="text-decoration-none link-light"  href="">Términos y condiciones</a>
+
+                    </div>
+                    <div class="col-lg">
+                        <a class="text-decoration-none link-light"  href="">Privacidad</a>
+
+                    </div>
+                    <div class="col-lg">
+                        <a class="text-decoration-none link-light"  href="">Estudiantes</a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </footer>
+
+       
+        
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+        crossorigin="anonymous"></script>
+        <script src="./app.js"></script>
+    </body>
+</html>
