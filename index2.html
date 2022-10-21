@@ -53,7 +53,7 @@
             <div class="container">
                 <div class="container p-4">
                         <!--Descuentos-->
-                        <div class="row mx-5">
+                        <div class="col mx-4">
                             <div class="row mx-4 justify-content-center">
                                 <div class="col ms-0">
                                     <div class="border border-primary">
@@ -77,7 +77,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col me-5">
+                                <div class="col">
                                     <div class="border border-warning" >
                                         
                                         <div class="card-body">
@@ -95,7 +95,7 @@
                 
             
                 <div class="container">
-                    <div class="w-75 m-md-auto">
+                    <div class="container">
                         <div class="text-center">
                             <p class="text-center">
                                 Venta
@@ -105,63 +105,68 @@
                             </h2>
                             
                         </div>
-                        <!--Formulario-->
-                        <form action="" method="get" class="formulario" id="formulario" >
-                            <div class="row my-2">
-                                <div class="col" id="usuario">
-                                    <input class="form-control" type="text" name="nombre"  id="nombre" required placeholder="Nombre">
+                    </div>
+                    <!--Formulario-->
+                    <div class="container ">
+                        <div class="container ">
+                        
+                            <form action="" method="get" class="formulario" id="formulario" >
+                                <div class="row my-2">
+                                    <div class="col-md-6" id="usuario">
+                                        <input class="form-control" type="text" name="nombre"  id="nombre" required placeholder="Nombre">
+                                    </div>
+                                    <div class="col-md-6" id="apellid">
+                                        <input class="form-control" type="text" name="apellido"  id="apellido" required placeholder="Apellido">
+                                    </div>
+                
                                 </div>
-                                <div class="col" id="apellid">
-                                    <input class="form-control" type="text" name="apellido"  id="apellido" required placeholder="Apellido">
+                                <div class="row my-2">
+                                    <div class="col-md-12" id="correo">
+                                        <input class="form-control" type="email" name="email" id="email" cols="20" required
+                                            placeholder="Correo"></input>
+                                        
+                                    </div>
+                
                                 </div>
-            
-                            </div>
-                            <div class="row my-2">
-                                <div class="col" id="correo">
-                                    <input class="form-control" type="email" name="email" id="email" cols="20" required
-                                        placeholder="Correo"></input>
-                                    
-                                </div>
-            
-                            </div>
-                            <div class="row my-2">
-                                <div class="col">
-                                    <label class="px-2" for="Cantidad"> Cantidad</label>
-                                    <input class="form-control my-2" type="text" name="cantidad"  id="cantidad" required placeholder="Cantidad">
-                                </div>
-                                <div class="col">
-                                    <label for="" class="form-label">Categoria</label>
-                                    <select class="form-select " name="Categoria" id="categoria">
-                                        <option value="Estudiante">Estudiante</option>
-                                        <option value="Trainee">Trainee</option>
-                                        <option value="Junior">Junior</option>
-                                    </select>
-                                    
+                                <div class="row my-2">
+                                    <div class="col-md-6">
+                                        <label class="px-2" for="Cantidad"> Cantidad</label>
+                                        <input class="form-control my-2" type="text" name="cantidad"  id="cantidad" required placeholder="Cantidad">
+                                    </div>
+                                    <div class="col-md-6">
+                                        <label for="" class="form-label">Categoria</label>
+                                        <select class="form-select " name="Categoria" id="categoria">
+                                            <option value="Estudiante">Estudiante</option>
+                                            <option value="Trainee">Trainee</option>
+                                            <option value="Junior">Junior</option>
+                                        </select>
+                                        
 
-                                    
+                                        
+                                    </div>
+                
                                 </div>
-            
-                            </div>
-                            <br>
-                            <div class="d-grid">
-                                <label class="text py-2 px-3" for="" id="pagar"> Total a pagar:$</label>
-                                
-                            </div>
-
-                            <div class="row my-4">
-                                <div class="col d-grid" >
-                                    <button type="button" class="btn" id="enviar" onclick="reset()">Borrar</button>
-                                    
-                                </div>
+                                <br>
                                 <div class="col d-grid">
-                                    <button type="submit" class="btn " id="enviar" onclick="resumen()" >Resumen</button>
+                                    <label class="text py-2 px-3" for="" id="pagar"> Total a pagar:$</label>
+                                    
                                 </div>
 
-                            </div>
-            
-            
-            
-                        </form>
+                                <div class="row my-4">
+                                    <div class="col d-grid" >
+                                        <button type="button" class="btn" id="enviar" onclick="reset()">Borrar</button>
+                                        
+                                    </div>
+                                    <div class="col d-grid">
+                                        <button type="button" class="btn " id="enviar" onclick="resumen()" >Resumen</button>
+                                    </div>
+
+                                </div>
+                
+                
+                
+                            </form>
+                        </div>
 
                     </div>        
                 </div>
