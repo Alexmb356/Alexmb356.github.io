@@ -9,6 +9,9 @@
   overflow: hidden;
   
 }
+.comprart{
+    display: none;
+}
 
 a:hover{
    background-color: grey;
@@ -26,7 +29,7 @@ a:hover{
     color:rgb(12, 5, 68);
 }
 
-#enviar {
+#enviar, #borrar {
     background-color: rgb(110, 201, 19);
     color:white;
 }
